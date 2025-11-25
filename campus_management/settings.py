@@ -44,7 +44,7 @@ MIDDLEWARE = [
 # URLS + TEMPLATES
 # ----------------------------
 # ⚠️ Remplace 'your_project' par le nom de TON projet Django !
-ROOT_URLCONF = 'your_project.urls'
+ROOT_URLCONF = "campus_management.urls"
 
 TEMPLATES = [
     {
@@ -63,7 +63,7 @@ TEMPLATES = [
 ]
 
 # ⚠️ Remplace 'your_project' par ton nom de projet
-WSGI_APPLICATION = 'courses.wsgi.application'
+WSGI_APPLICATION = 'campus_management.wsgi.application'
 
 # ----------------------------
 # DATABASE (Render PostgreSQL)
